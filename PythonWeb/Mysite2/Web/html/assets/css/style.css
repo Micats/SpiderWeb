@@ -1,0 +1,249 @@
+﻿
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+        line-height:30px;
+        font-size:16px;
+}
+
+section {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.hr-set {
+    border-top:1px solid rgba(0, 0, 0, 0)!important;
+    margin-bottom:20px;
+}
+.hr-set-two {
+    border-top:1px solid rgba(0, 0, 0, 0.05)!important;
+    margin-bottom:5px;
+}
+section {
+    padding-top:90px;
+    padding-bottom:120px;
+}
+h1 {
+    font-weight:900;
+    font-size:50px;
+    color:#fff;
+    padding-top:120px;
+}
+
+.p-top {
+     padding-top:80px;
+}
+   /* =============================================================
+   SIDE MENU STYLES
+ ============================================================ */
+
+#side-menu {
+    height:100%;
+    position:fixed;
+    top:-1000px;
+    left:-250px;
+    background-color:#047D93;
+    color:#fff;
+    z-index:999;
+    overflow:auto;
+    max-width:500px;
+
+}
+ #side-menu ul {
+        list-style:none;
+        padding:0px;
+    }
+
+        #side-menu ul li {
+          border-bottom:1px solid rgba(11, 98, 144, 0.2);
+padding: 20px 25px;
+display:inline-block;
+        }
+         #side-menu ul li a i {
+             padding-right:10px;
+        }
+
+            #side-menu ul li a,#side-menu ul li a:hover {
+                color:#fff;
+                text-decoration:none;
+font-size: 16px;
+            }
+  
+.logo-text {
+    padding: 20px 30px;
+cursor: pointer;
+font-size:20px;
+font-weight:900;
+
+}
+.menu-close-icon {
+    padding:0px 10px;
+    cursor: pointer;
+    color:#000;
+  
+}
+.menu-open-icon {
+    cursor:pointer;
+    color:#fff;
+    padding:20px 30px;
+     padding:20px 25px;
+     position:fixed;
+}
+.intro-txt {
+    padding:20px;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+ /* =============================================================
+   SOCIAL MENU STYLES
+ ============================================================ */
+ .menu-open-social {
+    cursor:pointer;
+    color:#fff;
+    padding:20px 25px;
+    
+}
+ .social-menu {
+    position:fixed;
+    top:35px;
+    right:-340px;
+    color:#fff;
+    z-index:999;
+    background-color:#047D93;
+}
+    .social-menu a, .social-menu a:hover {
+        color:#fff;
+        text-decoration:none;
+    }
+.social-icon-set {
+    padding: 15px 20px;
+background-color: rgba(0, 54, 56, 0.05);
+}
+.close-social {
+    padding: 15px 20px;
+background-color: #000;
+cursor:pointer;
+}
+   /* =============================================================
+   HOME STYLES
+ ============================================================ */
+
+
+#home-sec {
+      background: url(../img/header.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+-moz-background-size:cover;
+color:#fff;
+}
+
+    #home-sec .overlay {
+        background-color:rgba(2, 67, 100, 0.90);
+        min-height:700px;
+    }
+    /* =============================================================
+   FEATURES STYLES
+ ============================================================ */
+#features-sec {
+    background-color:#001E27;
+    color:#fff;
+}
+#features-sec ul 
+{
+padding-left:0px;
+list-style:none;
+}
+#features-sec ul li {
+    padding: 15px 15px;
+border-bottom: 1px dotted rgba(45, 45, 45, 0.55);
+max-width: 400px;
+}
+
+    #features-sec ul li i {
+        margin-right:10px;
+    }
+
+     /* =============================================================
+   PRICING STYLES
+ ============================================================ */
+#pricing-sec {
+    background-color:#c23838;
+    color:#fff;
+}
+
+    #pricing-sec ul {
+         background-color:rgba(0,0,0,0.1);
+        list-style:none;
+        padding-left:0px;
+    }
+     #pricing-sec ul li {
+       padding:10px 15px;
+       border: 4px double rgba(0, 0, 0, 0.1);
+       color:rgba(0, 0, 0, 0.5);
+    }
+.price-div {
+   
+    padding:20px 5px;
+}
+
+.cost-cls {
+    padding: 20px 10px;
+background-color: rgba(0, 0, 0, 1);
+color: #fff;
+border-radius: 5px;
+}
+
+    .cost-cls span {
+        font-weight:900;
+        font-size:40px;
+    }
+
+.set-btn,.set-btn:hover {
+    color: #FFF;
+background-color: #000000;
+border-color: #000000;
+}
+
+
+     /* =============================================================
+   DEVELOPER STYLES
+ ============================================================ */
+
+#developer-sec {
+    background-color:#323232;
+    color:#fff;
+}
+
+   /* =============================================================
+   CONTACT STYLES
+ ============================================================ */
+
+   #contact-sec {
+        background: url(../img/footer.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+-moz-background-size:cover;
+    color:#fff;
+}
+
+     #contact-sec .overlay {
+        background-color:rgba(66, 37, 94, 0.9);
+        min-height:500px;
+    }
+.footer-p {
+    color:rgba(0, 0, 0, 0.70);
+    padding:15px;
+}
+    .footer-p a, .footer-p a:hover {
+         color:rgba(0, 0, 0, 0.70);
+         text-decoration:none;
+    }
